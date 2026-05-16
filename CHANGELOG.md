@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.0] - 2026-05-16
+
 ### Added
 
 - Phase 1 — Foundation
@@ -24,4 +26,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Code of Conduct (Contributor Covenant 2.1)
   - Contributing guidelines
 
-[Unreleased]: https://github.com/<your-username>/cloudseven-agent/compare/HEAD
+### Fixed
+
+- Use `structlog.stdlib.LoggerFactory` instead of `PrintLoggerFactory` so the `add_logger_name` processor works (`PrintLogger` has no `.name` attribute).
+
+[Unreleased]: https://github.com/riyons/cloudseven-agent/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/riyons/cloudseven-agent/releases/tag/v0.1.0

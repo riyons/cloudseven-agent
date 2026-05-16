@@ -1,0 +1,23 @@
+[
+  {
+    "member_id": "CP-100042",
+    "first_name": "Riyon",
+    "last_name": "Joseph",
+    "points_balance": 24500,
+    "tier": "Gold"
+  },
+  {
+    "member_id": "CP-100118",
+    "first_name": "Arjun",
+    "last_name": "Menon",
+    "points_balance": 87200,
+    "tier": "Platinum"
+  },
+  {
+    "member_id": "CP-100777",
+    "first_name": "Priya",
+    "last_name": "Nair",
+    "points_balance": 3100,
+    "tier": "Silver"
+  }
+]

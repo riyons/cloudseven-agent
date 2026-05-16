@@ -1,0 +1,52 @@
+[
+  {
+    "flight_number": "CS-204",
+    "origin": "COK",
+    "destination": "DXB",
+    "scheduled_departure": "2026-05-16T02:30:00",
+    "scheduled_arrival": "2026-05-16T05:15:00",
+    "status": "scheduled",
+    "gate": "C12",
+    "aircraft": "B737-800"
+  },
+  {
+    "flight_number": "CS-118",
+    "origin": "BLR",
+    "destination": "BOM",
+    "scheduled_departure": "2026-05-16T06:45:00",
+    "scheduled_arrival": "2026-05-16T08:30:00",
+    "status": "scheduled",
+    "gate": "A4",
+    "aircraft": "A320neo"
+  },
+  {
+    "flight_number": "CS-417",
+    "origin": "DEL",
+    "destination": "LHR",
+    "scheduled_departure": "2026-05-16T13:00:00",
+    "scheduled_arrival": "2026-05-16T18:45:00",
+    "status": "delayed",
+    "gate": "T3-46",
+    "aircraft": "B787-9"
+  },
+  {
+    "flight_number": "CS-902",
+    "origin": "COK",
+    "destination": "BLR",
+    "scheduled_departure": "2026-05-15T19:30:00",
+    "scheduled_arrival": "2026-05-15T20:45:00",
+    "status": "landed",
+    "gate": "B7",
+    "aircraft": "A320neo"
+  },
+  {
+    "flight_number": "CS-555",
+    "origin": "BOM",
+    "destination": "SIN",
+    "scheduled_departure": "2026-05-17T23:15:00",
+    "scheduled_arrival": "2026-05-18T07:30:00",
+    "status": "scheduled",
+    "gate": null,
+    "aircraft": "B787-9"
+  }
+]

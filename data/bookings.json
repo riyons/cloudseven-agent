@@ -1,0 +1,33 @@
+[
+  {
+    "pnr": "ABC123",
+    "flight_number": "CS-204",
+    "passengers": [
+      {"first_name": "Riyon", "last_name": "Joseph", "seat": "14A"},
+      {"first_name": "Jisna", "last_name": "Joseph", "seat": "14B"}
+    ],
+    "cabin_class": "economy",
+    "checked_in": false,
+    "baggage_count": 2
+  },
+  {
+    "pnr": "XYZ789",
+    "flight_number": "CS-417",
+    "passengers": [
+      {"first_name": "Arjun", "last_name": "Menon", "seat": "3F"}
+    ],
+    "cabin_class": "business",
+    "checked_in": true,
+    "baggage_count": 1
+  },
+  {
+    "pnr": "QRS456",
+    "flight_number": "CS-555",
+    "passengers": [
+      {"first_name": "Priya", "last_name": "Nair", "seat": null}
+    ],
+    "cabin_class": "premium_economy",
+    "checked_in": false,
+    "baggage_count": 0
+  }
+]

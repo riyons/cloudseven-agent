@@ -12,6 +12,12 @@ from cloudseven.agent.chatbot import Conversation
 from cloudseven.config import get_settings
 from cloudseven.llm.factory import get_llm_client
 from cloudseven.logging_config import configure_logging, get_logger
+from cloudseven.repositories.factory import (
+    get_booking_repository,
+    get_flight_repository,
+    get_loyalty_repository,
+)
+from cloudseven.tools.executor import ToolExecutor
 
 log = get_logger(__name__)
 
@@ -33,7 +39,12 @@ def main() -> int:
     )
 
     llm = get_llm_client()
-    conversation = Conversation(llm=llm)
+    executor = ToolExecutor(
+        flight_repo=get_flight_repository(),
+        booking_repo=get_booking_repository(),
+        loyalty_repo=get_loyalty_repository(),
+    )
+    conversation = Conversation(llm=llm, executor=executor)
 
     print("\n" + "=" * 60)
     print("  CloudSeven Airlines  —  Sevi Assistant")

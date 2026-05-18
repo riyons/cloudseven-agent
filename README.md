@@ -58,7 +58,7 @@ Sevi: I can only help with CloudSeven Airlines questions. If you have any
       to ask!
 ```
 
-See [`docs/phase2-observations.md`](docs/phase2-observations.md) for a full evaluation — including a documented regression (the model still hallucinates *policy* answers because there's no policy tool yet — slated for Phase 4).
+See [`docs/phase-notes/phase2-observations.md`](docs/phase-notes/phase2-observations.md) for a full evaluation — including a documented regression (the model still hallucinates *policy* answers because there's no policy tool yet — slated for Phase 4).
 
 ---
 

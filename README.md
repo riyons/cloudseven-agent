@@ -259,6 +259,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md). This project follows the [Contributor Co
 
 ## Disclaimer
 
-*CloudSeven Airlines is a fictional airline created for educational purposes.
-This project is not affiliated with any real airline, company, or brand named
-"Cloud Seven," "Cloud 7," or any variant thereof.*
+*CloudSeven Airlines and the assistant "Sevi" are fictional, created for 
+educational purposes. This project is not affiliated with any real airline, 
+company, or brand named "Cloud Seven," "Cloud 7," "Sevi," or any variant 
+thereof.*

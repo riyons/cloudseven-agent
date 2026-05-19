@@ -247,6 +247,16 @@ See [`docs/CloudSeven_Learning_Guide.pdf`](docs/CloudSeven_Learning_Guide.pdf) f
 
 Each phase also produces an evaluation document in `docs/phase-notes/` (`phase1-observations.md`, `phase2-observations.md`, …) capturing what was learned, what worked, and what didn't.
 
+## Read about the journey
+
+This project is being built and documented in public as a multi-part series on dev.to. Each phase gets its own article covering the architectural decisions, mistakes, and lessons.
+
+- **[Series introduction — "I'm building a production-grade AI airline assistant in public. Here's the plan."](https://dev.to/riyon_sebastian/im-building-a-production-grade-ai-airline-assistant-in-public-heres-the-plan-2kj)** — the why behind the project, the roadmap, and how to follow along.
+- **Part 1 — Phase 1: Foundation** *(coming soon)*
+- **Part 2 — Phase 2: Tool calling (ReAct loop)** *(coming soon)*
+
+Follow the project on [dev.to](https://dev.to/riyon_sebastian) to get notified when new articles publish.
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). This project follows the [Contributor Covenant Code of Conduct](CODE_OF_CONDUCT.md).

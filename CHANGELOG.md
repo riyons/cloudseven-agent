@@ -7,6 +7,24 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.1] - 2026-05-22
+
+### Added
+
+- Unit test suite for the Phase 2 tool layer (33 tests, runs in ~20ms):
+  - `tests/unit/conftest.py` with fake repositories and pytest fixtures
+  - `tests/unit/test_tool_functions.py` covering all four tool functions
+  - `tests/unit/test_tool_executor.py` covering dispatch and the three
+    error categories
+- Fake repositories satisfy the same Protocol interfaces as the JSON
+  implementations, validating that Phase 1's interface-based design
+  enables testing without I/O.
+
+### Notes
+
+- Closes the test-suite deliverable that was deferred from v0.2.0
+- Phase 3 (LangGraph + semantic routing + LangSmith) begins from this tag
+
 ## [0.2.0] - 2026-05-18
 
 ### Added
@@ -78,6 +96,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Use `structlog.stdlib.LoggerFactory` instead of `PrintLoggerFactory` so the `add_logger_name` processor works (`PrintLogger` has no `.name` attribute).
 
-[Unreleased]: https://github.com/riyons/cloudseven-agent/compare/v0.2.0...HEAD
+[Unreleased]: https://github.com/riyons/cloudseven-agent/compare/v0.2.1...HEAD
+[0.2.1]: https://github.com/riyons/cloudseven-agent/releases/tag/v0.2.1
 [0.2.0]: https://github.com/riyons/cloudseven-agent/releases/tag/v0.2.0
 [0.1.0]: https://github.com/riyons/cloudseven-agent/releases/tag/v0.1.0

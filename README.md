@@ -251,8 +251,8 @@ Each phase also produces an evaluation document in `docs/phase-notes/` (`phase1-
 
 This project is being built and documented in public as a multi-part series on dev.to. Each phase gets its own article covering the architectural decisions, mistakes, and lessons.
 
-- **[Series introduction — "I'm building a production-grade AI airline assistant in public. Here's the plan."](https://dev.to/riyon_sebastian/im-building-a-production-grade-ai-airline-assistant-in-public-heres-the-plan-2kj)** — the why behind the project, the roadmap, and how to follow along.
-- **Part 1 — Phase 1: Foundation** *(coming soon)*
+* **[Series introduction — "I'm building a production-grade AI airline assistant in public. Here's the plan."](https://dev.to/riyon_sebastian/im-building-a-production-grade-ai-airline-assistant-in-public-heres-the-plan-2kj)** — the why behind the project, the roadmap, and how to follow along.
+* **[Part 1 — Phase 1: Foundation](https://dev.to/riyon_sebastian/phase-1-building-the-foundation-before-the-agent-what-a-chatbot-looks-like-when-you-treat-it-id)** — building the baseline chatbot before it becomes an agent.
 - **Part 2 — Phase 2: Tool calling (ReAct loop)** *(coming soon)*
 
 Follow the project on [dev.to](https://dev.to/riyon_sebastian) to get notified when new articles publish.
